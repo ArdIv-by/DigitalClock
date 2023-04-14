@@ -3,17 +3,13 @@
 @import 'reset';
 @import 'global';
 
-
-
-
-
-
-
-
-
-
-
-
-@import 'media';
-
-
+.container {
+  @extend %alkatra-400;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+}
